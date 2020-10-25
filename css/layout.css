@@ -1,0 +1,118 @@
+/* reset CSS */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body
+{
+    font-family:verdana, arial, sans-serif;
+    font-size: 0.55em;
+    background: #acdf87;
+}
+#site
+{
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+header
+{
+    margin-top: 10px;
+    font-size: 1000% ;
+    color: white;
+    font-weight: bold;
+    border: solid 3px darkgreen;
+    border-radius: 25px;
+    text-align: center;
+    font-family: "Niagara Solid", serif;
+    background-image: url("../img/ogor-header.jpg");
+    margin-bottom: 20px;
+}
+nav {
+    width: 13%;
+    background-color: wheat;
+    float:left;
+    font-size: 280%;
+    padding: 1%;
+    border: solid 3px wheat;
+    border-radius: 10px;
+}
+#site > a{
+    text-decoration: none;
+    color: white;
+}
+.kafar>a:hover{
+    color: red;
+}
+.kafar>a{
+    text-decoration: none;
+    color: maroon;
+}
+
+article {
+    width: 55%;
+    float:left;
+    font-size: 200%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Lato', sans-serif;
+
+}
+aside {
+    width: 27%;
+    background-image: url("../img/dance.png");
+    float:left;
+    height: 430px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 150%;
+}
+aside:hover {
+    background-position:330px;
+}
+.enter
+{
+    clear: both;
+    margin-bottom: 5%;
+}
+footer
+{
+    font-size: 140%;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 1%;
+}
+#ogorasy{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr>th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+tr>td{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px;
+}
+article>h1{
+    font-size: 150%;
+    text-align: center;
+}
+article>form{
+    margin-top: 20px;
+    text-align: center;
+}
+article>ul{
+    margin-top: 10px;
+}
+article>ul>li{
+    margin-top: 1%;
+    margin-left: 5%;
+}
